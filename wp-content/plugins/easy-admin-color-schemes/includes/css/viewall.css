@@ -1,0 +1,61 @@
+/*
+Easy Admin Color Schemes <http://JamesDimick.com/easy-admin-color-schemes>
+Created by James Dimick <http://JamesDimick.com>
+
+  Copyright (C) 2011 James Dimick <mail@jamesdimick.com> - JamesDimick.com
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+.tablenav .view-switch {
+  display: none
+}
+
+.eacs-schemes-list-colors {
+  vertical-align: middle;
+  margin-right: 8px
+}
+
+.eacs-schemes-list-colors span {
+  background-color: #fff;
+  background-image: -moz-linear-gradient(left top, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.2));
+  background-image: -webkit-linear-gradient(left top, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.2));
+  background-image: -khtml-linear-gradient(left top, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.2));
+  background-image: -o-linear-gradient(left top, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.2));
+  background-image: -ms-linear-gradient(left top, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.2));
+  background-image: linear-gradient(left top, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.2));
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  -khtml-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  padding: 0 4px;
+  margin-right: 1px
+}
+
+#the-list .name small {
+  margin-left: 6px
+}
+
+#the-list .name small, #the-list .name small a {
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.column-dated {
+  width: 10%
+}

@@ -1,0 +1,37 @@
+/*
+Easy Admin Color Schemes <http://JamesDimick.com/easy-admin-color-schemes>
+Created by James Dimick <http://JamesDimick.com>
+
+  Copyright (C) 2011 James Dimick <mail@jamesdimick.com> - JamesDimick.com
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+#icon-edit.icon32-posts-admincolorscheme {
+  background: url('../img/icon32.png') 2px 2px no-repeat
+}
+
+#eacs-author-support-link {
+  background-color: #e0efff;
+  border-color: #55a8e6;
+}
+
+#eacs-author-support-link strong {
+  float: left;
+}
+
+#eacs-author-support-link small {
+  float: right;
+  color: #88919b;
+}

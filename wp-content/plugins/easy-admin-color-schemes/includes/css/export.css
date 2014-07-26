@@ -1,0 +1,43 @@
+/*
+Easy Admin Color Schemes <http://JamesDimick.com/easy-admin-color-schemes>
+Created by James Dimick <http://JamesDimick.com>
+
+  Copyright (C) 2011 James Dimick <mail@jamesdimick.com> - JamesDimick.com
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+#export-filters ul {
+  display: table
+}
+
+#export-filters ul li {
+  display: table-row
+}
+
+#export-filters ul li input, #export-filters ul li label {
+  display: table-cell
+}
+
+#export-filters ul li input {
+  margin-right: 0.6em
+}
+
+#export-filters ul li label {
+  padding-bottom: 1em
+}
+
+#export-filters ul li:last-child label {
+  padding-bottom: 0
+}
