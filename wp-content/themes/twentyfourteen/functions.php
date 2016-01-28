@@ -510,3 +510,13 @@ require get_template_directory() . '/inc/customizer.php';
 if ( ! class_exists( 'Featured_Content' ) && 'plugins.php' !== $GLOBALS['pagenow'] ) {
 	require get_template_directory() . '/inc/featured-content.php';
 }
+
+
+if(function_exists('add_db_table_editor')){ 
+    
+        //add_db_table_editor('title=Employees&table=employees');
+
+       //add wp_orders
+       add_db_table_editor(array( 'title'=>'Zahra Members', 'table'=>'Members', 'sql'=>'SELECT * FROM zahra_members JOIN wp_users ON user_id = ID' ));
+
+}

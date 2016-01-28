@@ -1,0 +1,19 @@
+{
+    "email":"oalghnmi@gmail.com"
+    ,"first_name":"osmah",
+    "last_name":"alghnmi",
+    "phone":4124824854,
+    "district":"riy",
+    "region":"salam",
+    "city":"ri",
+    "address":"alsalam",
+    "products":
+    [
+        {
+            "ID":630,
+            "quantity":2,
+            "price":20
+        }    
+    ]
+    
+}

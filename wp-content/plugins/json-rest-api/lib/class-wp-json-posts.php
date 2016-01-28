@@ -233,7 +233,7 @@ class WP_JSON_Posts {
 		}
 
 		// Can we read the post?
-		if ( 'publish' === $post['post_status'] || current_user_can( $post_type->cap->read_post, $post['ID'] ) ) {
+		if ( 'publish' === $post['post_status'] || ( 'revision' !== $post['post_type'] && current_user_can( $post_type->cap->read_post, $post['ID'] ) ) ) {
 			return true;
 		}
 
@@ -241,8 +241,12 @@ class WP_JSON_Posts {
 		if ( 'inherit' === $post['post_status'] && $post['post_parent'] > 0 ) {
 			$parent = get_post( $post['post_parent'], ARRAY_A );
 
-			if ( $this->check_read_permission( $parent ) ) {
+			if ( 'revision' === $post['post_type'] && ! $this->check_edit_permission( $parent ) ) {
+				return false;
+			} else if ( $this->check_read_permission( $parent ) ) {
 				return true;
+			} else {
+				return false;
 			}
 		}
 

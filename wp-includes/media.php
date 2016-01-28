@@ -801,6 +801,8 @@ function img_caption_shortcode( $attr, $content = null ) {
 			$content = $matches[1];
 			$attr['caption'] = trim( $matches[2] );
 		}
+	} elseif ( strpos( $attr['caption'], '<' ) !== false ) {
+		$attr['caption'] = wp_kses( $attr['caption'], 'post' );
 	}
 
 	/**
@@ -1213,6 +1215,10 @@ function wp_playlist_shortcode( $attr ) {
 	$id = intval( $id );
 	if ( 'RAND' == $order ) {
 		$orderby = 'none';
+	}
+
+	if ( $atts['type'] !== 'audio' ) {
+		$atts['type'] = 'video';
 	}
 
 	$args = array(

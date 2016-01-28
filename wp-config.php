@@ -18,6 +18,9 @@
 /** The name of the database for WordPress */
 define('DB_NAME', 'javasop_zahrahc');
 
+define('WP_HOME','http://zahracontrol.com/zahrahControl');
+define('WP_SITEURL','http://zahracontrol.com/zahrahControl');
+
 /** MySQL database username */
 define('DB_USER', 'javasop_zahrah');
 
